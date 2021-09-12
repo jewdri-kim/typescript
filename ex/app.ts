@@ -3,4 +3,13 @@ function logName(name: string){
     console.log(name);
 }
 
-logName(3333);
+logName('Jewdri');
+
+
+function addNumber(num){
+    return 100 + num;
+}
+
+let a = 10;
+a = 5;
+a = 'aaa';

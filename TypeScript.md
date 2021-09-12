@@ -300,3 +300,19 @@ interface User extends Person{
 }
 ```
 
+
+
+
+
+
+
+### 타입추론
+
+ : 타입스크립트에서는 타입표기가 없는 경우 여러분의 코드를 읽고 분석하여 타입을 유추
+
+```typescript
+let a = 10;
+a = 5;
+a = 'aaa';
+```
+
