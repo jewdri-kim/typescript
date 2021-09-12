@@ -86,13 +86,60 @@
    2. npm : Node Package Manager -> node js 의 한부분
    3. typescript 사용하기 위해서 node js 설치
 
+   ![](https://github.com/jewdri-kim/typescript/blob/master/install.png)
+
 3. #### 타입스크립트 파일 만들기
 
 
 
 ## 타입스크립트로 파일 작성 및 실행해보기
 
-1. 파일작성
-2. 컴파일
-3. 버그?
+![](https://github.com/jewdri-kim/typescript/blob/master/compile.png)
+
+1. #### 파일작성
+
+   ```typescript
+   //app.ts
+   function logName(name: string){
+       console.log(name);
+   }
+   
+   logName('Jewdri');
+   ```
+
+   
+
+2. #### 컴파일 및 실행
+
+   ```cmd
+   cd 경로
+   
+   tsc app.ts
+   ```
+
+   - 터미널에서 실행
+
+   ![](https://github.com/jewdri-kim/typescript/blob/master/8.png)
+
+   ```
+   node app.js
+   ```
+
+   - watch
+
+   ![](https://github.com/jewdri-kim/typescript/blob/master/watcher.png)
+
+   ```
+   tsc -w app.ts
+   ```
+
+3. #### 버그?
+
+   ![](https://github.com/jewdri-kim/typescript/blob/master/7.png)
+
+   ![](https://github.com/jewdri-kim/typescript/blob/master/INIT.png)
+
+   ```
+   tsc --init
+   ```
 
