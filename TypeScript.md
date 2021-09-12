@@ -1,8 +1,8 @@
-TypeScript (타입스크립트)
+# TypeScript (타입스크립트)
 
 
 
-# 타입스크립트 소개 
+## 타입스크립트 소개 
 
 - 2021년 마이크로 소프트가 발표
 - 자바스크립트를 기반으로 정적타입 문법을 추가한 프로그래밍 언어 
@@ -27,7 +27,7 @@ TypeScript (타입스크립트)
 
 : 자바스크립트를 기반으로 한 언어 
 
-동그라미 그림
+![](https://github.com/jewdri-kim/typescript/blob/master/KakaoTalk_20210912_104941118.png)
 
 -> 타입스크립트는 자바스크립트를 보다 쉽게 강력하게 작성하도록 도와주는 좀 더 나은 버전이 자바스크립트
 
@@ -78,12 +78,21 @@ TypeScript (타입스크립트)
 
 
 
-1. Visual Studio 설치
-2.  타입스크립트 (TypeScript) 설치 
+1. #### Visual Studio 설치
+
+2. ####  타입스크립트 (TypeScript) 설치 
+
    1. https://www.typescriptlang.org/
    2. npm : Node Package Manager -> node js 의 한부분
    3. typescript 사용하기 위해서 node js 설치
-3. 타입스크립트 파일 만들기
+
+3. #### 타입스크립트 파일 만들기
 
 
+
+## 타입스크립트로 파일 작성 및 실행해보기
+
+1. 파일작성
+2. 컴파일
+3. 버그?
 
